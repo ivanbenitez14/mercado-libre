@@ -24,7 +24,7 @@ export const Pagination = ({productsPerPage, totalProducts, currentPage, setCurr
   return (
     <nav role="navigation" aria-label="pagination" className="pagination">
 
-      <button onClick={onPreviousPage}>Previous page</button>
+      <button className="pagination-button" onClick={onPreviousPage}>Anterior</button>
 
       <ul>
         {
@@ -38,7 +38,7 @@ export const Pagination = ({productsPerPage, totalProducts, currentPage, setCurr
         }
       </ul>
 
-      <button onClick={onNextPage}>Next page</button>
+      <button className="pagination-button" onClick={onNextPage}>Siguiente</button>
 
     </nav>
   );

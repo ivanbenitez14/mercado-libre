@@ -21,7 +21,8 @@ html, body{
 }
 
 .nav-logo {
-    width: 100px;
+    width: 60px;
+    height: 60px;
 }
 
 .search {
@@ -72,6 +73,14 @@ html, body{
 .cards {
     display: flex;
     gap: 50px;
+    border-bottom: #EEEEEE 1px solid;
+    align-items: center;
+}
+
+.pictures {
+    padding-top: 10px;
+    height: 160px;
+    width: 160px;
 }
 
 .pagination {
@@ -83,10 +92,19 @@ html, body{
     margin-top: 40px;
 }
 
+.pagination-button {
+    color: #34A0F5;
+}
+
 ul {
     display: flex;
     padding: 0 0 0 0 !important;
     margin-bottom: 0px !important;
     gap: 10%;
     width: 50%;
+}
+
+.product-title {
+    font-size: larger;
+    color: #333333;
 }
