@@ -1,0 +1,92 @@
+html, body{
+    height:100%;
+    width: 100%;
+    margin: 0;
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    padding: 20px 100px;
+    display: flex;
+    background-color: #FFF159;
+    color: #333333;
+    width: 100%;
+}
+
+.nav-logo {
+    width: 100px;
+}
+
+.search {
+    display: flex;
+    width: 70%;
+}
+
+.search-input {
+    padding-top: 5px;
+    padding-bottom: 7px;
+    width: 100%;
+    box-shadow: 0.5px 0.5px 0.5px;
+    padding-left: 10px;
+}
+
+.searchIcon {
+    background-color: white;
+    padding: 0px 20px;
+    border-left: rgba(0, 0, 0, 0.068) 1px solid;
+    box-shadow: 0.5px 0.5px 0.5px;
+}
+
+.products {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    gap: 40px;
+    padding: 0px 50px;
+}
+
+.filter {
+    background-color: #FFFFFF;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    background-color: #FFFFFF;
+    width: 80%;
+    height: 100%;
+    padding: 20px 20px 0px 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    width: 100%;
+    margin-top: 40px;
+}
+
+ul {
+    display: flex;
+    padding: 0 0 0 0 !important;
+    margin-bottom: 0px !important;
+    gap: 10%;
+    width: 50%;
+}
